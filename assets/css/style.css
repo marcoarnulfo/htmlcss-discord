@@ -191,3 +191,35 @@ h2{
     font-size: 1.5rem;
     padding-top: 2.5rem;
 }
+
+.container_gray{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.container_gray > .tecnology{
+    padding-top: 10rem;
+}
+
+.tecnologia{
+    font-size: 2.5rem;
+}
+
+.tecnology, .streaming{
+    width: 70%;
+    margin: auto;
+}
+
+.big{
+    width: 1600px;
+}
+
+.stars{
+    width: 700px;
+}
+
+.adventure{
+    font-size: 2rem;
+    position: relative;
+    bottom: 2rem;
+}
