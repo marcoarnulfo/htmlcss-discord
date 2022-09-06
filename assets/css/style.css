@@ -61,16 +61,30 @@ h1{
     font-size:1.8rem;
 }
 
-.download_mac, .open_browser{
-    padding: 0.7rem;
+.download_mac{
     border-radius: 30px;
     margin: 0 7px;
     border-style: none;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.3rem;
+}
+
+.arrow{
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 
 .open_browser{
     background-color: #23272A;
     color: whitesmoke;
+    padding: 1rem;
+    border-radius: 30px;
+    margin: 0 7px;
+    border-style: none;
+    font-size: 1.5rem;
 }
 
 /*
@@ -92,7 +106,7 @@ h1{
 
 .container{
     width: 80%;
-    max-width: 1980px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -154,7 +168,7 @@ h1{
 /* #endregion col */
 
 .study_group{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .study{
@@ -198,7 +212,7 @@ h2{
 }
 
 .container_gray > .tecnology{
-    padding-top: 10rem;
+    padding: 10rem 0;
 }
 
 .tecnologia{
@@ -208,10 +222,12 @@ h2{
 .tecnology, .streaming{
     width: 70%;
     margin: auto;
+    max-width: 1980px;
 }
 
 .big{
-    width: 1600px;
+    width: 100%;
+    max-width: 1980px;
 }
 
 .stars{
@@ -222,4 +238,102 @@ h2{
     font-size: 2rem;
     position: relative;
     bottom: 2rem;
+}
+
+.container_footer{
+    background-color: #23272A;
+    color: whitesmoke;
+}
+
+.ita{
+    width: 40px;
+    padding-top: 1rem;
+}
+
+select{
+    position: relative;
+    bottom: 8px;
+    background-color: #23272A;
+    border: #23272A; 
+    color: whitesmoke;
+}
+
+i{
+    font-size:2rem;
+    padding: 1rem;
+}
+
+#twitter{
+    padding-left: 0;
+}
+
+.posto{
+    font-size: 2rem;
+    max-width: 60%;
+    color: #7289DA;
+}
+
+footer ul{
+    display: inline-block;
+    padding-top: 9rem;
+}
+
+footer li{
+    padding: 1rem 0;
+} 
+
+strong{
+    color: #7289DA;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.last_col{
+    margin-left: 5rem;
+    padding-top: 10rem;
+}
+
+
+.last_button{
+    background-color: #7289DA;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+}
+
+.huge{
+    background-color: #23272A;
+    height: 100vh;
+    display: flex;
+}
+
+.bottom{
+    border-top: solid 2px #7289DA;
+    background-color: #23272A;
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#registrati{
+    margin-top: 15px;
+    padding: 0.6rem;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.last_logo{
+    margin-top: 15px;
 }
