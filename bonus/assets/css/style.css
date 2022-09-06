@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#site_header{
+    background-color: #255EE9;
+    display: flex;
+}
+
+nav{
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 4rem;
+    margin-top: 0.7rem;
+}
+
+#login{
+    padding: 0.6rem;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.top_container{
+    background-image: url(../img/jumbo.png);
+    height: 700px;
+    background-size: cover, contain;
+    display: flex;
+}
+
+section{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+h1{
+    padding: 15px;
+    font-size: 3rem;
+}
+
+.descrizione{
+    padding: 15px;
+    font-size:1.8rem;
+}
+
+.download_mac{
+    border-radius: 30px;
+    margin: 0 7px;
+    border-style: none;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.3rem;
+}
+
+.arrow{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.open_browser{
+    background-color: #23272A;
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 30px;
+    margin: 0 7px;
+    border-style: none;
+    font-size: 1.5rem;
+}
+
+/*
+
+#login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.open_browser:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #23272A;
+}
+
+.download_mac:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+*/
+
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* #region col */
+
+
+.col_1{
+    width: calc( (100% / 12) * 1);
+}
+
+.col_2{
+    width: calc( (100% / 12) * 2);
+}
+
+.col_3{
+    width: calc( (100% / 12) * 3);
+}
+
+.col_4{
+    width: calc( (100% / 12) * 4);
+}
+
+.col_5{
+    width: calc( (100% / 12) * 5);
+}
+
+.col_6{
+    width: calc( (100% / 12) * 6);
+}
+
+.col_7{
+    width: calc( (100% / 12) * 7);
+}
+
+.col_8{
+    width: calc( (100% / 12) * 8);
+}
+
+.col_9{
+    width: calc( (100% / 12) * 9);
+}
+
+.col_10{
+    width: calc( (100% / 12) * 10);
+}
+
+.col_11{
+    width: calc( (100% / 12) * 11);
+}
+
+.col_12{
+    width: calc( (100% / 12) * 12);
+}
+
+/* #endregion col */
+
+.study_group{
+    margin-left: 10%;
+}
+
+.study{
+    text-align: center;
+}
+
+.col_6, .col_7{
+    margin-top: 8rem;
+}
+
+.luogo{
+    width: 30%;
+    text-align: left;
+    margin-right: 20%;
+    margin-top: 10rem;
+}
+
+.trovarsi{
+    width: 20%;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 10rem;
+}
+
+.voice_connect{
+    margin-left: 15%;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+.spiegazione{
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+.container_gray{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.container_gray > .tecnology{
+    padding: 10rem 0;
+}
+
+.tecnologia{
+    font-size: 2.5rem;
+}
+
+.tecnology, .streaming{
+    width: 70%;
+    margin: auto;
+    max-width: 1980px;
+}
+
+.big{
+    width: 100%;
+    max-width: 1980px;
+}
+
+.stars{
+    width: 700px;
+}
+
+.adventure{
+    font-size: 2rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.container_footer{
+    background-color: #23272A;
+    color: whitesmoke;
+}
+
+.ita{
+    width: 40px;
+    padding-top: 1rem;
+}
+
+select{
+    position: relative;
+    bottom: 8px;
+    background-color: #23272A;
+    border: #23272A; 
+    color: whitesmoke;
+}
+
+i{
+    font-size:2rem;
+    padding: 1rem;
+}
+
+#twitter{
+    padding-left: 0;
+}
+
+.posto{
+    font-size: 2rem;
+    max-width: 60%;
+    color: #7289DA;
+}
+
+footer ul{
+    display: inline-block;
+    padding-top: 9rem;
+}
+
+footer li{
+    padding: 1rem 0;
+} 
+
+strong{
+    color: #7289DA;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.last_col{
+    margin-left: 5rem;
+    padding-top: 10rem;
+}
+
+
+.last_button{
+    background-color: #7289DA;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+}
+
+.huge{
+    background-color: #23272A;
+    height: 100vh;
+    display: flex;
+}
+
+.bottom{
+    border-top: solid 2px #7289DA;
+    background-color: #23272A;
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#registrati{
+    margin-top: 15px;
+    padding: 0.6rem;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.last_logo{
+    margin-top: 15px;
+}
