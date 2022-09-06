@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#site_header{
+    background-color: #255EE9;
+    display: flex;
+}
+
+nav{
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 4rem;
+    margin-top: 0.7rem;
+}
+
+#login{
+    padding: 0.6rem;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.top_container{
+    background-image: url(../img/jumbo.png);
+    height: 700px;
+    background-size: cover, contain;
+    display: flex;
+}
+
+section{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+h1{
+    padding: 15px;
+    font-size: 3rem;
+}
+
+.descrizione{
+    padding: 15px;
+    font-size:1.8rem;
+}
+
+.download_mac, .open_browser{
+    padding: 0.7rem;
+    border-radius: 30px;
+    margin: 0 7px;
+    border-style: none;
+}
+
+.open_browser{
+    background-color: #23272A;
+    color: whitesmoke;
+}
+
+/*
+
+#login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.open_browser:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #23272A;
+}
+
+.download_mac:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+*/
+
+.container{
+    width: 80%;
+    max-width: 1980px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* #region col */
+
+
+.col_1{
+    width: calc( (100% / 12) * 1);
+}
+
+.col_2{
+    width: calc( (100% / 12) * 2);
+}
+
+.col_3{
+    width: calc( (100% / 12) * 3);
+}
+
+.col_4{
+    width: calc( (100% / 12) * 4);
+}
+
+.col_5{
+    width: calc( (100% / 12) * 5);
+}
+
+.col_6{
+    width: calc( (100% / 12) * 6);
+}
+
+.col_7{
+    width: calc( (100% / 12) * 7);
+}
+
+.col_8{
+    width: calc( (100% / 12) * 8);
+}
+
+.col_9{
+    width: calc( (100% / 12) * 9);
+}
+
+.col_10{
+    width: calc( (100% / 12) * 10);
+}
+
+.col_11{
+    width: calc( (100% / 12) * 11);
+}
+
+.col_12{
+    width: calc( (100% / 12) * 12);
+}
+
+/* #endregion col */
+
+.study_group{
+    margin-left: 20%;
+}
+
+.study{
+    text-align: center;
+}
+
+.col_6, .col_7{
+    margin-top: 8rem;
+}
+
+.luogo{
+    width: 30%;
+    text-align: left;
+    margin-right: 20%;
+    margin-top: 10rem;
+}
+
+.trovarsi{
+    width: 20%;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 10rem;
+}
+
+.voice_connect{
+    margin-left: 15%;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+.spiegazione{
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+}
