@@ -9,6 +9,37 @@ body{
 }
 
 
+/* "funzionalità" */
+
+#login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+.open_browser:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #23272A;
+}
+
+.download_mac:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+.last_button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #7289DA;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    text-shadow: 0 0 20px white;
+}
+
+/* "end funzionalità" */
 #site_header{
     background-color: #255EE9;
     display: flex;
@@ -86,23 +117,6 @@ h1{
     border-style: none;
     font-size: 1.5rem;
 }
-
-/*
-
-#login:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
-.open_browser:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px #23272A;
-}
-
-.download_mac:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
-*/
 
 .container{
     width: 80%;
